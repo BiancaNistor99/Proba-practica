@@ -1,0 +1,149 @@
+Updatecheck<|||>3<|||>1
+DoUsageStatistics<|||>3<|||>1
+UpdatecheckLastrun<|||>1<|||>2022-09-05 15:47:07
+LastUsageStatisticCall<|||>1<|||>2022-08-27 17:58:08
+ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,10
+ColsVisible_connform.ListSessions<|||>1<|||>0,1,4,6
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColSort_connform.ListSessions<|||>1<|||>0,0
+querymemoheight<|||>3<|||>214
+queryhelperswidth<|||>3<|||>167
+dbtreewidth<|||>3<|||>225
+DataPreviewHeight<|||>3<|||>83
+sqloutheight<|||>3<|||>66
+MainWinOnMonitor<|||>3<|||>0
+MainWinLeft<|||>3<|||>303
+MainWinTop<|||>3<|||>217
+MainWinWidth<|||>3<|||>991
+MainWinHeight<|||>3<|||>505
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,428
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColWidths_MainForm.ListStatus<|||>1<|||>160,428,100,100
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,290
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,368
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+LastSessions<|||>1<|||>ONLINE SHOP
+LastActiveSession<|||>1<|||>ONLINE SHOP
+CreateDbCollation<|||>1<|||>utf8mb4_0900_ai_ci
+ColWidths_frmTableEditor.listColumns<|||>1<|||>38,100,152,90,60,65,50,117,130,139,100,100
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>311,100,80
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>76,80,100,80,80,80
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listCheckConstraints<|||>1<|||>200,296
+ColsVisible_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColPositions_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColSort_frmTableEditor.listCheckConstraints<|||>1<|||>-1,0
+MainWinMaximized<|||>3<|||>1
+DisplayBLOBsAsText<|||>3<|||>0
+DateTimeEditor_CursorPos_Type4<|||>3<|||>10
+ExportSQL_Filenames<|||>1<|||>OnlineShop<{{{><}}}>
+SQLFile0<|||>1<|||>C:\Users\40762\AppData\Roaming\HeidiSQL\Backups\query-tab-2022-09-05_15-47-06-982.sql
+SessionManager_WindowLeft<|||>3<|||>714
+SessionManager_WindowTop<|||>3<|||>131
+Servers\ONLINE SHOP\SessionCreated<|||>1<|||>2022-09-05 15:47:16
+Servers\ONLINE SHOP\Host<|||>1<|||>127.0.0.1
+Servers\ONLINE SHOP\WindowsAuth<|||>3<|||>0
+Servers\ONLINE SHOP\CleartextPluginEnabled<|||>3<|||>0
+Servers\ONLINE SHOP\User<|||>1<|||>root
+Servers\ONLINE SHOP\Password<|||>1<|||>393A3B3C8
+Servers\ONLINE SHOP\LoginPrompt<|||>3<|||>0
+Servers\ONLINE SHOP\Port<|||>1<|||>3306
+Servers\ONLINE SHOP\NetType<|||>3<|||>0
+Servers\ONLINE SHOP\Compressed<|||>3<|||>0
+Servers\ONLINE SHOP\LocalTimeZone<|||>3<|||>0
+Servers\ONLINE SHOP\QueryTimeout<|||>3<|||>30
+Servers\ONLINE SHOP\KeepAlive<|||>3<|||>20
+Servers\ONLINE SHOP\FullTableStatus<|||>3<|||>1
+Servers\ONLINE SHOP\Databases<|||>1<|||>
+Servers\ONLINE SHOP\Library<|||>1<|||>libmariadb.dll
+Servers\ONLINE SHOP\Comment<|||>1<|||>
+Servers\ONLINE SHOP\StartupScriptFilename<|||>1<|||>
+Servers\ONLINE SHOP\TreeBackground<|||>3<|||>536870911
+Servers\ONLINE SHOP\SshExecutable<|||>1<|||>plink.exe
+Servers\ONLINE SHOP\SSHtunnelHost<|||>1<|||>
+Servers\ONLINE SHOP\SSHtunnelHostPort<|||>3<|||>22
+Servers\ONLINE SHOP\SSHtunnelUser<|||>1<|||>
+Servers\ONLINE SHOP\SSHtunnelPassword<|||>1<|||>8
+Servers\ONLINE SHOP\SSHtunnelTimeout<|||>3<|||>4
+Servers\ONLINE SHOP\SSHtunnelPrivateKey<|||>1<|||>
+Servers\ONLINE SHOP\SSHtunnelPort<|||>3<|||>3307
+Servers\ONLINE SHOP\SSL_Active<|||>3<|||>0
+Servers\ONLINE SHOP\SSL_Key<|||>1<|||>
+Servers\ONLINE SHOP\SSL_Cert<|||>1<|||>
+Servers\ONLINE SHOP\SSL_CA<|||>1<|||>
+Servers\ONLINE SHOP\SSL_Cipher<|||>1<|||>
+Servers\ONLINE SHOP\IgnoreDatabasePattern<|||>1<|||>
+Servers\ONLINE SHOP\LogFileDdl<|||>3<|||>0
+Servers\ONLINE SHOP\LogFileDml<|||>3<|||>0
+Servers\ONLINE SHOP\LogFilePath<|||>1<|||>C:\Users\40762\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+Servers\ONLINE SHOP\ServerVersionFull<|||>1<|||>8.0.30 - MySQL Community Server - GPL
+Servers\ONLINE SHOP\ConnectCount<|||>3<|||>10
+Servers\ONLINE SHOP\ServerVersion<|||>3<|||>80030
+Servers\ONLINE SHOP\LastConnect<|||>1<|||>2022-09-06 20:54:47
+Servers\ONLINE SHOP\lastUsedDB<|||>1<|||>onlineshop
+Servers\ONLINE SHOP\RefusedCount<|||>3<|||>4
+Servers\ONLINE SHOP\QueryHistory\1<|||>1<|||>2022-09-05 15:50:38||32|CREATE DATABASE OnlineShop ; 
+Servers\ONLINE SHOP\QueryHistory\2<|||>1<|||>2022-09-05 16:00:03|onlineshop|46|CREATE TABLE customer (<{{{><}}}>CustomerID INT NOT NULL,<{{{><}}}>CustomerName VARCHAR (50) NOT NULL, <{{{><}}}>Address TEXT NOT NULL,<{{{><}}}>PRIMARY KEY (CustomerID) <{{{><}}}>);
+Servers\ONLINE SHOP\QueryHistory\3<|||>1<|||>2022-09-05 16:03:07|onlineshop|16|CREATE TABLE product (<{{{><}}}>ProductID INT NOT NULL,<{{{><}}}>ProductName VARCHAR (50) NOT NULL, <{{{><}}}>Price INT NOT NULL ,<{{{><}}}>StocNumber INT<{{{><}}}>);
+Servers\ONLINE SHOP\QueryHistory\4<|||>1<|||>2022-09-05 16:04:13|onlineshop|16|CREATE TABLE product (<{{{><}}}>ProductID INT NOT NULL,<{{{><}}}>ProductName VARCHAR (50) NOT NULL, <{{{><}}}>Price INT NOT NULL ,<{{{><}}}>StocNumber INT,<{{{><}}}>PRIMARY KEY (ProductID)<{{{><}}}>);
+Servers\ONLINE SHOP\QueryHistory\5<|||>1<|||>2022-09-05 17:23:33|onlineshop|47|CREATE TABLE purchase (<{{{><}}}>TransactionID INT NOT NULL, <{{{><}}}>CustomerID INT NOT NULL,<{{{><}}}>ProductID INT NOT NULL,<{{{><}}}>FOREIGN KEY (CustomerID) REFERENCES customers (CustomerID), <{{{><}}}>FOREIGN KEY (ProductID) REFERENCES products (ProductID),  <{{{><}}}>PurchaseDate DATE,<{{{><}}}>PRIMARY KEY (TransactionID)<{{{><}}}>);
+Servers\ONLINE SHOP\QueryHistory\6<|||>1<|||>2022-09-05 17:32:58|onlineshop|16|ALTER TABLE customers <{{{><}}}>ADD LastName VARCHAR (50),<{{{><}}}>ADD City VARCHAR (30),<{{{><}}}>ADD County VARCHAR (30), <{{{><}}}>ADD PostalCode INT<{{{><}}}>;
+Servers\ONLINE SHOP\QueryHistory\7<|||>1<|||>2022-09-05 17:34:07|onlineshop|0|ALTER TABLE customers <{{{><}}}>ADD country VARCHAR (25)<{{{><}}}>;
+Servers\ONLINE SHOP\QueryHistory\8<|||>1<|||>2022-09-05 17:51:16|onlineshop|0|INSERT INTO customers (CustomerID, FirstName, LastName, Address, City, County, PostalCode, Country) <{{{><}}}>VALUES ('01' , 'Bianca', 'Nistor', 'Str. Verde, nr. 8, bloc 66' , 'Timișoara' , 'Timiș' , '300287' , 'România');
+Servers\ONLINE SHOP\QueryHistory\9<|||>1<|||>2022-09-05 17:54:37|onlineshop|16|INSERT INTO customers (CustomerID, FirstName, LastName, Address, City, County, PostalCode, Country) <{{{><}}}>VALUES ('02' , 'Alexandru', 'Marica', 'Str. Vasile Lucaci nr. 18, bloc B8' , 'Timișoara' , 'Timiș' , '300045' , 'România');
+Servers\ONLINE SHOP\QueryHistory\10<|||>1<|||>2022-09-05 17:56:09|onlineshop|0|INSERT INTO customers (CustomerID, FirstName, LastName, Address, City, County, PostalCode, Country) <{{{><}}}>VALUES ('03' , 'Anemari', 'Moraru', 'Str. Trandafirilor, nr. 41' , 'Giroc' , 'Timiș' , '307220' , 'România');
+Servers\ONLINE SHOP\QueryHistory\11<|||>1<|||>2022-09-05 17:58:06|onlineshop|0|INSERT INTO customers (CustomerID, FirstName, LastName, Address, City, County, PostalCode, Country) <{{{><}}}>VALUES ('04' , 'Cosmin', 'Agache', 'Str. Peco, nr. 1' , 'Botoșani' , 'Botoșani' , '710014' , 'România');
+Servers\ONLINE SHOP\QueryHistory\12<|||>1<|||>2022-09-05 17:59:59|onlineshop|0|INSERT INTO customers (CustomerID, FirstName, LastName, Address, City, County, PostalCode, Country) <{{{><}}}>VALUES ('06' , 'Daiana', 'Gherasim', 'Aleea Iazului, nr. 31' , 'Târgu Jiu' , 'Gorj' , '210101' , 'România');
+Servers\ONLINE SHOP\QueryHistory\13<|||>1<|||>2022-09-05 18:05:55|onlineshop|0|INSERT INTO customers (CustomerID, FirstName, LastName, Address, City, County, PostalCode, Country) <{{{><}}}>VALUES ('05' , 'Marco', 'Petcov', 'Bulevar kralja Petra I ' , 'Novi Sad' , 'Vojvodina' , '220131' , 'Serbia');
+Servers\ONLINE SHOP\QueryHistory\14<|||>1<|||>2022-09-05 18:13:08|onlineshop|0|INSERT INTO customers (CustomerID, FirstName, LastName, Address, City, County, PostalCode, Country) <{{{><}}}>VALUES ('07' , 'Evelina', 'Vladimirovna', 'Str. Constructorilor ' , 'Chișinău' , 'Chișinău' , '2059' , 'Republica Moldova');
+Servers\ONLINE SHOP\QueryHistory\15<|||>1<|||>2022-09-05 18:17:51|onlineshop|0|INSERT INTO customers (CustomerID, FirstName, LastName, Address, City, County, PostalCode, Country) <{{{><}}}>VALUES ('08' , 'Jan', 'Dobrican', 'Aleea Bradisului' , 'București, Sector 6' , 'Ilfov' , '062238' , 'România');
+Servers\ONLINE SHOP\QueryHistory\16<|||>1<|||>2022-09-05 18:20:17|onlineshop|0|INSERT INTO customers (CustomerID, FirstName, LastName, Address, City, County, PostalCode, Country) <{{{><}}}>VALUES ('09' , 'Melania', 'Marian', 'Aleea Neptun 6B' , 'Arad' , 'Arad' , '310388' , 'România');
+Servers\ONLINE SHOP\QueryHistory\17<|||>1<|||>2022-09-05 18:23:13|onlineshop|0|INSERT INTO customers (CustomerID, FirstName, LastName, Address, City, County, PostalCode, Country) <{{{><}}}>VALUES ('010' , 'George', 'Străuț', 'Strada Principală 66' , 'Cenei' , 'Timiș' , '307100' , 'România');
+Servers\ONLINE SHOP\QueryHistory\18<|||>1<|||>2022-09-05 18:35:52|onlineshop|0|INSERT INTO products (ProductID, ProductName, Price, StocNumber) <{{{><}}}>VALUES ('2016' , 'T-Shirt', '50 RON' , '93');
+Servers\ONLINE SHOP\QueryHistory\19<|||>1<|||>2022-09-05 18:36:39|onlineshop|16|INSERT INTO products (ProductID, ProductName, Price, StocNumber) <{{{><}}}>VALUES ('2017' , 'Blouse', '79,99 RON' , '40');
+Servers\ONLINE SHOP\QueryHistory\20<|||>1<|||>2022-09-05 18:37:33|onlineshop|0|INSERT INTO products (ProductID, ProductName, Price, StocNumber) <{{{><}}}>VALUES ('2018' , 'Jeans', '130 RON' , '100');
+Servers\ONLINE SHOP\QueryHistory\21<|||>1<|||>2022-09-05 18:38:39|onlineshop|0|INSERT INTO products (ProductID, ProductName, Price, StocNumber) <{{{><}}}>VALUES ('2019' , 'Dress', '150 RON' , '54');
+Servers\ONLINE SHOP\QueryHistory\22<|||>1<|||>2022-09-05 18:39:17|onlineshop|0|INSERT INTO products (ProductID, ProductName, Price, StocNumber) <{{{><}}}>VALUES ('2020' , 'Pants', '99,90 RON' , '78');
+Servers\ONLINE SHOP\QueryHistory\23<|||>1<|||>2022-09-05 18:40:06|onlineshop|0|INSERT INTO products (ProductID, ProductName, Price, StocNumber) <{{{><}}}>VALUES ('2021' , 'Jacket', '300 RON' , '42');
+Servers\ONLINE SHOP\QueryHistory\24<|||>1<|||>2022-09-05 18:40:48|onlineshop|0|INSERT INTO products (ProductID, ProductName, Price, StocNumber) <{{{><}}}>VALUES ('2022' , 'Suit', '600 RON' , '30');
+Servers\ONLINE SHOP\QueryHistory\25<|||>1<|||>2022-09-05 18:41:20|onlineshop|0|INSERT INTO products (ProductID, ProductName, Price, StocNumber) <{{{><}}}>VALUES ('2023' , 'Sweater', '89,90 RON' , '56');
+Servers\ONLINE SHOP\QueryHistory\26<|||>1<|||>2022-09-05 18:42:14|onlineshop|0|INSERT INTO products (ProductID, ProductName, Price, StocNumber) <{{{><}}}>VALUES ('2024' , 'Skirt', '100 RON' , '39');
+Servers\ONLINE SHOP\QueryHistory\27<|||>1<|||>2022-09-05 18:42:51|onlineshop|0|INSERT INTO products (ProductID, ProductName, Price, StocNumber) <{{{><}}}>VALUES ('2025' , 'Shorts', '139,90 RON' , '83');
+Servers\ONLINE SHOP\QueryHistory\28<|||>1<|||>2022-09-05 18:43:31|onlineshop|16|INSERT INTO products (ProductID, ProductName, Price, StocNumber) <{{{><}}}>VALUES ('2026' , 'Swimsuit', '140 RON' , '74');
+Servers\ONLINE SHOP\QueryHistory\29<|||>1<|||>2022-09-05 18:44:56|onlineshop|0|INSERT INTO products (ProductID, ProductName, Price, StocNumber) <{{{><}}}>VALUES ('2027' , 'Pajama', '55 RON' , '61');
+Servers\ONLINE SHOP\QueryHistory\30<|||>1<|||>2022-09-05 18:48:14|onlineshop|16|INSERT INTO purchase (TransactionID, CustomerID, ProductID, PurchaseDate) <{{{><}}}>VALUES ('61287' , '7', '2019' , '08.09.2022');
+Servers\ONLINE SHOP\QueryHistory\31<|||>1<|||>2022-09-05 19:01:55|onlineshop|0|INSERT INTO purchase (TransactionID, CustomerID, ProductID, PurchaseDate) <{{{><}}}>VALUES ('61288' , '3', '2018' , '2022-09-08');
+Servers\ONLINE SHOP\QueryHistory\32<|||>1<|||>2022-09-05 19:03:02|onlineshop|0|INSERT INTO purchase (TransactionID, CustomerID, ProductID, PurchaseDate) <{{{><}}}>VALUES ('61289' , '1', '2026' , '2022-09-11');
+Servers\ONLINE SHOP\QueryHistory\33<|||>1<|||>2022-09-05 19:04:34|onlineshop|0|INSERT INTO purchase (TransactionID, CustomerID, ProductID, PurchaseDate) <{{{><}}}>VALUES ('61290' , '5', '2022' , '2022-09-12');
+Servers\ONLINE SHOP\QueryHistory\34<|||>1<|||>2022-09-05 19:05:07|onlineshop|0|INSERT INTO purchase (TransactionID, CustomerID, ProductID, PurchaseDate) <{{{><}}}>VALUES ('61291' , '9', '2025' , '2022-09-13');
+Servers\ONLINE SHOP\QueryHistory\35<|||>1<|||>2022-09-05 19:07:45|onlineshop|0|INSERT INTO purchase (TransactionID, CustomerID, ProductID, PurchaseDate) <{{{><}}}>VALUES ('61292' , '2', '2017' , '2022-09-15');
+Servers\ONLINE SHOP\QueryHistory\36<|||>1<|||>2022-09-05 19:08:50|onlineshop|15|INSERT INTO purchase (TransactionID, CustomerID, ProductID, PurchaseDate) <{{{><}}}>VALUES ('61293' , '8', '2024' , '2022-09-15');
+Servers\ONLINE SHOP\QueryHistory\37<|||>1<|||>2022-09-05 19:09:11|onlineshop|0|INSERT INTO purchase (TransactionID, CustomerID, ProductID, PurchaseDate) <{{{><}}}>VALUES ('61294' , '4', '2027' , '2022-09-15');
+Servers\ONLINE SHOP\QueryHistory\38<|||>1<|||>2022-09-05 19:10:24|onlineshop|0|INSERT INTO purchase (TransactionID, CustomerID, ProductID, PurchaseDate) <{{{><}}}>VALUES ('61295' , '6', '2026' , '2022-09-16');
+Servers\ONLINE SHOP\QueryHistory\39<|||>1<|||>2022-09-05 19:11:38|onlineshop|0|INSERT INTO purchase (TransactionID, CustomerID, ProductID, PurchaseDate) <{{{><}}}>VALUES ('61296' , '10', '2021' , '2022-09-16');
