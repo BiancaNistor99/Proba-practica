@@ -1,0 +1,735 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,comment,priority,severity,automation,type,tags,step_comments,case_parameter
+25,"Test to verify the installation of the Glovo mobile app.","Glovo - Functional testing",1,Bianca,203220,Passed,"2022-09-08 13:16:38","1. Open App Store.
+2. Search ,,Glovo'' in the search bar.
+3. Press the ,,Get (the app)''
+","1. email & password
+2. email & password
+3. email & password
+","1. AppStore opens.
+2. A page with all the apps related to Glovo appeares.
+3. The app is downloaded and installed.
+","1. Passed
+2. Passed
+3. Passed
+",,High,Blocker,"Not automated",Functional,,"1. 
+2. 
+3. ",
+1,"Test to verify the functionality of the account creation with valid data","Glovo - Functional testing",1,Bianca,88695,Passed,"2022-09-08 13:18:07","1. Open the Glovo mobile app.
+2. Click ,,Create account\`\`
+3. Insert a name, an email, a password and click ,,create account\`\`
+","1. 
+2. 
+3. Name - Alex M
+Email - alex\_m@yahoo.com
+password - alexareglovo
+","1. A login/ create account page opens.
+2. An account creation page opens. It requires a name, an email and a password.
+3. The data is accepted and the account is created. The Glovo home page opens.
+","1. Passed
+2. Passed
+3. Passed
+",,High,Blocker,"Not automated",Functional,,"1. 
+2. 
+3. ",
+2,"Test to verify the functionality of the account creation with invalid data","Glovo - Functional testing",1,Bianca,148286,Passed,"2022-09-08 13:20:37","1. Open the Glovo mobile app.
+2. Click ,,Create account\`\`
+3. Insert anything as a name
+4. Insert an invalid email
+5. Insert a password
+6. Insert a password based on the safety tool.
+7. ,,Create account\`\` can not be clicked because of the invalid email.
+","1. 
+2. 
+3. Name = Abcdefgh\_\_\_\_\_\_))))(((
+4. Email = Abcdefg.hijk@fd.ro
+5. password - banane
+6. password - banane13
+7. 
+","1. A login/ create account page opens.
+2. An account creation page opens. It requires a name, an email and a password.
+3. Name is accepted
+4. An ,,Invalid email\`\` message appeares.
+5. Password is too weak. The ,,create account\`\` button can not be clicked.
+6. Password is strong.
+7. Account can not be created.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+",,Low,Minor,"Not automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+3,"Test to verify the functionality of the account creation with blank spaces as data","Glovo - Functional testing",1,Bianca,29131,Passed,"2022-09-08 13:21:08","1. Open the Glovo mobile app.
+2. Click ,,Create account\`\`
+3. Insert blank spaces as name, email and password.
+","1. 
+2. 
+3. 
+","1. A login/ create account page opens.
+2. A ,,create account\`\` page opens. It requires a name, an email and a password.
+3. The account can not be created.
+","1. Passed
+2. Passed
+3. Passed
+",,Low,Minor,"Not automated",Functional,,"1. 
+2. 
+3. ",
+4,"Test to verify the login functionality with valid data","Glovo - Functional testing",1,Bianca,38204,Passed,"2022-09-08 13:21:47","1. Open the Glovo mobile app.
+2. Click ,,Already have an account. \`\`
+3. Insert the email and the password and then click ,,login\`\`
+","1. 
+2. 
+3. Email - alex\_m@yahoo.com
+password - alexareglovo
+","1. A login/ create account page opens.
+2. A login page opens.
+3. The glovo homepage opens and the account is logged in.
+","1. Passed
+2. Passed
+3. Passed
+",,High,Blocker,"Not automated",Functional,,"1. 
+2. 
+3. ",
+5,"Test to verify the login functionality with invalid data","Glovo - Functional testing",1,Bianca,120184,Passed,"2022-09-08 13:23:48","1. Open the Glovo mobile app.
+2. Click ,,Already have an account. \`\`
+3. Insert the email and a wrong password
+4. Insert a wrong email and the password.
+","1. 
+2. 
+3. email - alex\_m@yahoo.com
+pass - banane
+4. email - alex\_mm@yahoo.com
+pass - alexareglovo
+","1. A login/ create account page opens.
+2. A login page opens.
+3. An authentification erros shows up for 5 seconds and the account is not logged in.
+4. An authentification erros shows up for 5 seconds and the account is not logged in.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,Low,Minor,"Not automated",Functional,,"1. 
+2. 
+3. 
+4. ",
+6,"Test to verify the login functionality with blank spaces as data","Glovo - Functional testing",1,Bianca,31018,Passed,"2022-09-08 13:24:21","1. Open the Glovo mobile app.
+2. Click ,,Already have an account. \`\`
+3. Insert blank spaces as email and password
+","1. 
+2. 
+3. 
+","1. A login/ create account page opens.
+2. A login page opens.
+3. The account can not be logged in. The ,,login\`\` button is not available.
+",,,Low,Minor,"Not automated",Functional,,,
+7,"Test to verify the functionality of the ""Forgot my password"" option","Glovo - Functional testing",1,Bianca,183851,Passed,"2022-09-08 13:27:26","1. Open the Glovo mobile app.
+2. Click ,,Already have an account. Login \`\`
+3. Click ,,Forgot your password?\`\`
+4. Insert the email and click ,,Send link\`\`
+5. Insert the email and the new password.
+","1. 
+2. 
+3. 
+4. email - alex\_m@yahoo.com
+5. email - alex\_m@yahoo.com
+pass - abr3g0
+","1. A login/ create account page opens.
+2. A login page opens.
+3. A resetting page opens,
+4. An email with a new password is sent.
+5. The homepage opens.
+",,,High,Blocker,"Not automated",Regression,,,
+8,"Test to verify the ,,Explore`` tool without creating an account or being logged in","Glovo - Functional testing",1,Bianca,59000,Failed,"2022-09-08 13:28:29","1. Open the Glovo mobile app.
+2. Click ,,Explore\`\` in the right right corner.
+3. Click on ,,Food\`\`
+4. Click on a restaurant and search the menu.
+","1. 
+2. 
+3. 
+4. 
+","1. A login/ create account page opens.
+2. The hompepage opens.
+3. A page with all the restaurants opens.
+4. The restaurant page with the menu and details opens.
+","1. Passed
+2. Failed
+3. Passed
+",,Low,Normal,"Not automated",Functional,,"1. 
+2. 
+3. ",
+9,"Test to verify the search function on the page","Glovo - Functional testing",1,Bianca,191327,Passed,"2022-09-08 13:31:53","1. Open the Glovo mobile app
+2. Click ,,What can we delivery for you?\`\`
+3. Type in the name of a product. /food/item.
+4. Or choose one category from the homepage (drinks&tobacco, food, drugstore&shops, supermarket), click it.
+5. Type in the name of the product.
+","1. email & password
+2. email &password
+3. email & password
+4. email & password
+5. email & password
+","1. The homepage opens.
+2. A page with suggestions (shops, restaurant, markets) opens. Up, in the middle the user can type in the place or the item he/she is looking for.
+3. The page returns all the shops/restaurants etc that sell the products
+4. A page with shops based on the selected category opens. Up, in the middle the user can type in the place or the item he/she is looking for.
+5. The page returns all the shops that sell the product.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+",,High,Major,"Not automated",Regression,,"1. 
+2. 
+3. 
+4. 
+5. ",
+10,"Test for verifying the page sorting and filters functionality","Glovo - Functional testing",1,Bianca,305205,Passed,"2022-09-08 13:37:00","1. Open the Glovo app.
+2. Choose ,,Food\`\`, click ,,restaurants\`\` and see the 4 round icons that represent the sorting categories and below them,
+3. Click the arrow from ,,Best rated near you\`\`.
+4. Click the arrow from ,,Deals\`\`
+5. Click on the first icon (ALL) that has 4 dots.
+6. Click on the first icon, sort by ,,close to you\`\` and then click ,,apply\`\`
+7. Click on the first icon, sort by ,,best rated\`\` and then click ,,apply\`\`
+8. Click on the first icon, sort by ,, delivery costs\`\` and click ,,apply\`\`
+9. Click on the first icon and choose a restaurant type.
+","1. Email & password
+2. Email & password
+3. Email & password
+4. Email & password
+5. Email& password.
+6. Email & password
+7. Email & password
+8. Email & password
+9. Email & password
+","1. The homepage opens.
+2. The restaurants page opens. Up, there are 4 icons that represent the sorting categories ( 1 - All of them, 2 - Fast serving, 3- Soups / Stews, 4- Pasta) and below them there are ,,the best rated near to you\`\` and ,,promotions/deals\`\`.
+3. The page returns all the restaurants with the best evaluations from the customers, that are located near your current location.
+4. A page with all the restaurants with discounts or free delivery appears.
+5. A ,,Sort by\`\` and ,, restaurant types\`\` window opens.
+6. A page with restaurants located near the current location opens.
+7. A page with the best rated by customers restaurants opens.
+8. A page with all the restaurants with ascending delivery costs opens. First there are the ones with free delivery and then are the ones with delivery fees in ascending order.
+9. The page returns all the restaurants that have that specific type that has been chosen.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+",,Low,Normal,"Not automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+11,"Test for checking the functionality of adding/deleting a product in the shopping cart.","Glovo - Functional testing",1,Bianca,183875,Passed,"2022-09-08 13:40:06","1. Open the Glovo mobile app.
+2. Choose a category - supermarkets.
+3. Click on one supermarket.
+4. Choose a category and click on an item.
+5. Click on ,,+\`\` to add one more of the same item and click the add to cart button.
+6. Click on the cart button.
+7. On ,,my order\`\`, click the minus under the item.
+8. Click on the minus again.
+9. Click ,,confirm\`\`
+","1. Email & password.
+2. Email & password
+3. Email & password
+4. Email & password
+5. Email & password
+6. Email & password
+7. Email & password
+8. Email & password
+9. Email & password
+","1. The homepage opens.
+2. A page with all the supermarkets opens.
+3. A page with all the products categories open.
+4. A window with the item opens. It containes the picture of the product, informations about it, the price, ,, + \`\` and ,, - \`\` buttons to adjust the quantity of the product and the ,,Add item\`\` button.
+5. The add to cart button now shows 2 items in the cart.
+6. A page with the items from the order, the delivery details with a map, the payment method, the tips for the courier and the summary of the order opens.
+7. One item was deleted from the cart.
+8. A deleting confirmation window opens with 2 buttons ,,confirm\`\` and ,,cancel\`\`
+9. The product is fully deleted from the cart and the page returns where it left.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+",,High,Blocker,"Not automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+12,"Test for checking the functionality of placing an order","Glovo - Functional testing",1,Bianca,304219,Passed,"2022-09-08 13:45:11","1. Open the Glovo mobile app.
+2. Open ,,food\`\`
+3. Choose a restaurant.
+4. Choose some food, add it to cart and click ,,order\`\`
+5. See if the current location is right. If not, click on it and adjust the address and click ,,confirm address\`\`.
+6. Choose a payment method, the tip for the courier and click ,,confirm order\`\`
+","1. Email&password
+2. Email&password
+3. Email&password
+4. Email&password
+5. Email & password & address
+6. Email & password & address
+","1. The Glovo homepage opens.
+2. A page with all the restaurants opens.
+3. The restaurant page with the menu opens.
+4. An order summary window opens.
+5. A map with the street info opens.
+6. The order was sent to be prepared.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+",,High,Blocker,"Not automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. ",
+13,"Test for verifying the functionality of scheduling an order by day and hour","Glovo - Functional testing",1,Bianca,185889,Passed,"2022-09-08 13:48:18","1. Open the Glovo mobile app.
+2. Open ,,drinks and tobacco\`\`
+3. Click ,,Glovo drinks\`\`, choose a drink and add it to cart.
+4. Click the yellow/orange cart button.
+5. Under ,,delivery details\`\` click on ,,schedule\`\` to choose the day and the hour for the delivery.
+6. Choose the day and hour and then click ,,set the hour\`\`
+7. Click ,,confirm order\`\`
+","1. Email & password & address
+2. Email & password & address
+3. Email & password & address
+4. Email & password & address
+5. Email & password & address
+6. Email & password & address
+7. Email & password & address
+","1. The Glovo homepage opens.
+2. A page with all the sellers tobacco and drink sellers open.
+3. Glovo drinks page opens and the drink is added to cart.
+4. The summary page opens.
+5. A day and time setter opens.
+6. The delivery is scheduled.
+7. The order was sent.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+",,Medium,Normal,"Not automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+14,"Test to check the functionality of the commands in homepage and in my account","Glovo - Functional testing",1,Bianca,366096,Passed,"2022-09-08 13:54:26","1. Open the Glovo mobile app.
+2. Click ,,drinks and tobacco\`\`
+3. Click ,,foods\`\`
+4. Click ,,Glovo Express\`\`
+5. Click ,,Supermarket\`\`
+6. Click ,,Quick Courier\`\`
+7. Click ,,Drugstore and Shops\`\`
+8. Click ,,Drustore&Care\`\`
+9. Click ,,Shops&Gifts\`\`
+10. Click ,,Glo & Neo\`\`
+11. Click ,,Anything\`\`
+12. Click the icon with a present on it, in the right corner.
+13. Click ,,Current location\`\`
+14. Click the icon with the little man in the left corner.
+15. On my account, click ,,My orders\`\`
+16. On my account Click ,,My informations\`\`
+17. In ,,My informations\`\`, click the username.
+18. In ,,My informations\`\`, click on the email.
+19. In ,,My informations\`\`, click ,,Change password\`\`
+20. In ,,My informations\`\`, click ,,Change the phone number\`\`
+21. In ,,My informations\`\`, click ,,Payment Methods\`\`
+22. In ,,My informations\`\`, click ,,Invoice informations\`\`
+23. In ,,My informations\`\`, click ,,Manage confidentiality\`\`
+24. Back in ,,My account\`\` click ,,share and win\`\`
+25. In ,,My account\`\` , click ,,Glovo Prime\`\`
+26. In ,,My account\`\` , click ,,F.A.Q\`\`
+27. In ,,My account\`\` , click ,,Notifications\`\`
+28. In ,,My account\`\` , click ,,Deactivate the account and delete the data\`\`
+29. In ,,My account\`\` , click ,, Disconnect\`\`
+30. In ,,My account\`\` , click the ,,Help\`\` button in the right corner
+31. In ,,Help\`\` click ,,Help with an order\`\` and then, click on an order.
+32. In ,,Help\`\`, click ,,Not related with the delivery\`\`
+33. In homepage, click ,,Because you ordered\`\`
+34. In homepage, click on a restaurant from ,,Order again from\`\`
+35. In homepage, click the arrow from ,,The best in Timisoara\`\`
+36. In homepage, click ,,Recommended for you\`\`
+37. Click ,,New in Glovo\`\`
+","1. Email&pass&address
+2. Email&pass&address
+3. Email&pass&address
+4. Email&pass&address
+5. Email&pass&address
+6. Email&pass&address
+7. Email&pass&address
+8. Email&pass&address
+9. Email&pass&address
+10. Email&pass&address
+11. Email&pass&address
+12. Email&pass&address
+13. Email&pass&address
+14. Email&pass&address
+15. Email&pass&address
+16. Email&pass&address
+17. Email&pass&address
+18. Email&pass&address
+19. Email&pass&address
+20. Email&pass&address
+21. Email&pass&address
+22. Email&pass&address
+23. Email&pass&address
+24. Email&pass&address
+25. Email&pass&address
+26. Email&pass&address
+27. Email&pass&address
+28. Email&pass&address
+29. Email&pass&address
+30. Email&pass&address
+31. Email&pass&address
+32. Email&pass&address
+33. Email&pass&address
+34. Email&pass&address
+35. Email&pass&address
+36. Email&pass&address
+37. Email&pass&address
+","1. The homepage should open.
+2. The drinks and tobacco page opens with a few tobacco and drink sellers.
+3. The foods page opens with all the restaurants.
+4. The Glovo Express page opens
+5. The Supermarket page opens with a list of the Supermarkets.
+6. A validation page opens
+7. A page with 2 buttons, ,,,Drustore&Care\`\` and ,,Shops&Gifts\`\`
+8. A ,,Drustore&Care\`\` page with all the drustore and care area sellers opens.
+9. A ,,Shops&Gifts\`\` page with all the drustore and care area sellers opens.
+10. A ,,Glo and Neo\`\` magazine opens.
+11. A page with a text-box and a photo attachement feature, where the user can write anything he/she needs in detail and even post a picture of it.
+12. A ,,Invite and win\`\` page opens
+13. A page with the current location on map and also the whole address opens.
+14. Account settings open
+15. A page with the orders should open.
+16. A page with the account informations and settings opens.
+17. The username can be edited.
+18. The email can be edited.
+19. A password change page opens.
+20. A page where the phone number can be modified opens.
+21. A page where cards can be added and saved.
+22. A page where invoice data can be edited and saved.
+23. A page where the user's preferences about marketing can be managed.
+24. The page with the code to share opens.
+25. Glovo Prime page opens.
+26. A questions and assistance page opens.
+27. It sends the user to the Glovo settings in the Settings pannel of the phone.
+28. A page with an application that must be completed opens.
+29. The user is logged out.
+30. 2 buttons ,,Help with an order\`\` and ,, Not related with the delivery\`\`
+31. A list with the orders appeares. After the order is clicked, the user can choose what was his problem from the ones that are already listed there.
+32. A list with changes that can be made to Glovo Prime, account details, identity check, Glovo newsletter, informations about the orders, ,,work with us\`\` and policies.
+33. A suggested restaurants page list opens.
+34. The restaurant page opens.
+35. A list with the best rated sellers appeares.
+36. A page with restaurants recommended for the user opens,
+37. All the new sellers appear there.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+11. Passed
+12. Passed
+13. Passed
+14. Passed
+15. Passed
+16. Passed
+17. Passed
+18. Passed
+19. Passed
+20. Passed
+21. Passed
+22. Passed
+23. Passed
+24. Passed
+25. Passed
+26. Passed
+27. Passed
+28. Passed
+29. Passed
+30. Passed
+31. Passed
+32. Passed
+33. Passed
+34. Passed
+35. Passed
+36. Passed
+37. Passed
+",,High,Major,"Not automated",Regression,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+25. 
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 
+33. 
+34. 
+35. 
+36. 
+37. ",
+15,"Test to verify the accuracy / grammar of the text","Glovo - Functional testing",1,Bianca,601000,Failed,"2022-09-08 14:04:41","1. Read all the informations from my account.
+2. Go in the sellers pages and read all the text, from the info's about the resturant to the product descriptions.
+","1. Email & password & address
+2. Email & password & address
+","1. The info's are correct and written with diacritics.
+2. All the data must be grammar correctly written and the data must be complete. If diacritics are used in some part of the app, then all the text on the app should have them
+","1. Passed
+2. Failed
+",,Low,Minor,"Not automated",Other,,"1. 
+2. ",
+16,"Test for checking the functionality of changing the location.","Glovo - Functional testing",1,Bianca,121357,Passed,"2022-09-08 14:06:51","1. Open the Glovo mobile app.
+2. Click ,,Current location\`\`
+3. Type the name of the street in the search bar and then click ,,confirm adress\`\`
+4. / Before placing an order, in the summary, click ,,delivery details'' and type in the address.
+","1. email & password
+2. email & password
+3. email & password
+4. email & password
+","1. The homepage opens.
+2. A page with the current location on map and also the whole address opens.
+3. The address was found and saved.
+4. The address was saved.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,High,Critical,"Not automated",Functional,,"1. 
+2. 
+3. 
+4. ",
+17,"Test to verify the functionality of inviting friends in the application / ``share and win''","Glovo - Functional testing",1,Bianca,602000,Failed,"2022-09-08 14:17:00","1. Open the Glovo mobile app.
+2. Either click on the icon in the right corner of the homepage or the one in the left and then click ,,Share and win\`\`
+3. Click ,,Share the code\`\`
+4. Choose a contact to send it to and send it.
+5. The contact receives the invite, downloads Glovo and creates the account.
+6. The contact makes his first order with 10 RON discount.
+7. Open the app, choose a restaurant and pick some food.
+8. The contact places 2 more orders.
+","1. Email & password
+code: VCESMDH
+2. Email & password
+code: VCESMDH
+3. Email & password
+code: VCESMDH
+4. Email & password
+code: VCESMDH
+5. Email & password
+code: VCESMDH
+6. Email & password
+code: VCESMDH
+7. Email & password
+code: VCESMDH
+8. Email & password
+code: VCESMDH
+","1. The homepage should open.
+2. A page with the code and a button to share it opens.
+3. A window with the recent contacts and different apps opens.
+4. An invite to download Glovo and the code are shared.
+5. Both users receive 30 RON to spend on 3 orders.
+6. You receive another 20 RON because the contact made his first order.
+7. The discount is added before placing the order.
+8. The discount is added before placing the orders.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed
+",,Medium,Major,"Not automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+18,"Test to verify the functionality of entering a valid discount code","Glovo - Functional testing",1,Bianca,123000,Failed,"2022-09-08 14:19:31","1. Open the Glovo mobile app.
+2. Click the icon with the little men in the left corner of the homepage.
+3. Click ,,Promotional Codes\`\`
+4. Insert a valid one
+","1. email & password & address
+2. email & password & address
+3. email & password & address
+4. email & password & address
+code KWLJJCL
+","1. The homepage should open.
+2. The account settings is open.
+3. The user can see his if he has promotional codes and also can insert promotional codes.
+4. The code is accepted.
+","1. Passed
+2. Passed
+3. Passed
+4. Failed
+",,High,Normal,"Not automated",Functional,,"1. 
+2. 
+3. 
+4. ",
+19,"Test to verify the functionality of entering an invalid discount code.","Glovo - Functional testing",1,Bianca,121472,Passed,"2022-09-08 14:21:43","1. Open the Glovo mobile app.
+2. Click the icon with the little men in the left corner of the homepage.
+3. Click ,,Promotional Codes\`\`
+4. Insert an invalid code.
+","1. email & password & address
+2. email & password & address
+3. email & password & address
+4. email & password & address
+code: BNJDs
+","1. The homepage should open.
+2. The account settings is open.
+3. The user can see his if he has promotional codes and also can insert promotional codes.
+4. A message ,,Invalid promo code. It doesn't exist\`\`
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,Low,Minor,"Not automated",Regression,,"1. 
+2. 
+3. 
+4. ",
+21,"Test to verify the disconnection  from the application.","Glovo - Functional testing",1,Bianca,122434,Passed,"2022-09-08 14:23:46","1. Open the Glovo mobile app.
+2. Click the icon with the little man from the left corner.
+3. Click ,,Disconnect\`\`
+","1. 
+2. 
+3. 
+","1. The Glovo homepage should open.
+2. A ,,my account\`\` page opens.
+3. The account is logged out and returned tot the homepage.
+","1. Passed
+2. Passed
+3. Passed
+",,Low,Trivial,"Not automated",Regression,,"1. 
+2. 
+3. ",
+20,"Test for checking the functionality of changing a password.","Glovo - Functional testing",1,Bianca,246329,Passed,"2022-09-08 14:27:54","1. Open the Glovo mobile app.
+2. Click the icon with the little man in the left corner.
+3. Click ,,My informations\`\`
+4. Click ,,Change password\`\`
+5. Insert the actual password and then the new password and click ,,Finish\`\`
+","1. email & password
+2. email & password
+3. email & password
+4. email & password
+5. email & password & new password
+","1. The homepage should open.
+2. Account settings opens
+3. A page with the account informations and settings opens.
+4. A password changer page opens.
+5. The password is changed.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+",,High,Major,"Not automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+24,"Test for checking the functionality of changing a password using invalid data","Glovo - Functional testing",1,Bianca,189000,Failed,"2022-09-08 14:31:07","1. Open the Glovo mobile app.
+2. Click the icon with the little man in the left corner.
+3. Click ,,My informations\`\`
+4. Click ,,Change password\`\`
+5. Insert an invalid password as the actual password and then the new password and click ,,Finish\`\`
+","1. email & password
+2. email & password
+3. email & password
+4. email & password
+5. email & invalid password & new password
+","1. The homepage should open.
+2. Account settings are opened.
+3. A page with the account informations and settings opens.
+4. A password changer page opens.
+5. An error appeares. The password can not be changed.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed
+",,Low,Major,"Not automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. ",
+22,"Test to verify the login functionality after trying to change the password","Glovo - Functional testing",1,Bianca,121000,Failed,"2022-09-08 14:33:23","1. Open the Glovo mobile app.
+2. Click ,,Already have an account. Login \`\`
+3. Insert the email and the password and then click ,,login\`\`
+","1. email & password
+2. email & password
+3. email & password
+","1. A login/ create account page opens.
+2. A login page opens.
+3. The glovo homepage should be open and the account should be logged in.
+","1. Passed
+2. Passed
+3. Failed
+",,High,Critical,"Not automated",Functional,,"1. 
+2. 
+3. ",
+23,"Test to verify the login functionality with Facebook","Glovo - Functional testing",1,Bianca,115601,Passed,"2022-09-08 14:35:26","1. Open the Glovo mobile app.
+2. Click ,,Login with Facebook\`\`
+","1. email & password
+2. email & password
+","1. A login/ create account page opens.
+2. The Glovo homepage opens and the account is logged in.
+","1. Passed
+2. Passed
+",,High,Major,"Not automated",Regression,,"1. 
+2. ",
